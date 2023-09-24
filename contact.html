@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yamada</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <!--navbar-->
+    <nav class="navbar">
+        <h1 class="logo">Yamada</h1>
+        <ul class="links-container">
+            <li><a href="index.html" class="link">Home</a></li>
+            <li><a href="index.html#catalog-section" class="link">Motorcycles</a></li>
+            <li><a href="about.html" class="link">About</a></li>
+            <li><a href="#" class="link">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <!--contact header-->
+    <section class="contact-header">
+        <div class="hero-content">
+            <h1 class="hero-heading">Contact</h1>
+        </div>
+    </section>
+
+    <!--contact form-->
+    <section class="contact" id="contact-section">
+        <h2 class="heading">Contact Us</span></h2>
+        <p class="sub-heading">Fill this form to get in touch with us!</p>
+        <div class="seperator"></div>
+
+        <div class="contact-form">
+            <div class="name">
+                <input type="text" class="first-name" required placeholder="first name">
+                <input type="text" class="last-name" required placeholder="last name">
+            </div>
+            <input type="email" required class="email" placeholder="email">
+            <textarea class="message" placeholder="message" required></textarea>
+            <button class="btn contact-btn" onclick="myFunction()">Send</button>
+            <script>
+                function myFunction() {
+                  alert("Thank you for contacting!");
+                }
+            </script>
+        </div>
+    </section>
+
+    <!--footer-->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Yamada Links</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="#">Our Services</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4 class="nonheader">-</h4>
+                    <ul>
+                        <li><a href="#">Frequently Asked Questions</a></li>
+                        <li><a href="#">Owner's Manuals</a></li>
+                        <li><a href="#">Buy Manuals Online</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4 class="nonheader">-</h4>
+                    <ul>
+                        <li><a href="https://www.facebook.com/yamaholigan/" target="_blank">Facebook</a></li>
+                        <li><a href="https://twitter.com/yamahaindonesia" target="_blank">Twitter</a></li>
+                        <li><a href="https://www.instagram.com/yamahaindonesia/" target="_blank">Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+   </footer>
+</body>
+</html>
